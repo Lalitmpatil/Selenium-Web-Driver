@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+<parameter name="URL" value="RahulQAAcademy.com"/>
+ <parameter name="APIKEY/username" value="12345"/>
+  <test name="Test" parallel="classes" thread-count="2" >
+    <classes >
+      <class name="TestngDemo.Day1"/>
+      <class name="TestngDemo.Day2"/>
+      <class name="TestngDemo.Day4"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test2">
+  <classes>
+  <class name="TestngDemo.Day3">
+  <methods>
+  <exclude name="HI"></exclude>
+  </methods>
+  </class>
+  </classes>
+  </test>
+</suite> <!-- Suite -->

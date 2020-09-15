@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="RahulQAAcademy.com"/>
+  <test parallel="tests" name="Test2(failed)">
+    <classes>
+      <class name="TestngDemo.Day2">
+        <methods>
+          <include name="ATest"/>
+          <include name="AfterSuitDemo"/>
+        </methods>
+      </class> <!-- TestngDemo.Day2 -->
+      <class name="TestngDemo.Day3">
+        <methods>
+          <include name="hello"/>
+        </methods>
+      </class> <!-- TestngDemo.Day3 -->
+      <class name="TestngDemo.Day1">
+        <methods>
+          <include name="BTest"/>
+          <include name="BeforeClassDemo"/>
+          <include name="AfterClassDemo"/>
+          <include name="AfterMethodDemo"/>
+          <include name="BeforeMethodDemo"/>
+          <include name="BeforeSuitDemo"/>
+        </methods>
+      </class> <!-- TestngDemo.Day1 -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

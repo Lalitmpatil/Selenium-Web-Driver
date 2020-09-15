@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-26T07:54:12Z" name="Suite" finished-at="2020-03-26T07:54:12Z" duration-ms="128">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1.print()[pri:0, instance:TestngDemo.Day1@d5b810e]" name="print" class="TestngDemo.Day1"/>
+        <method signature="Day2.DemoABC()[pri:0, instance:TestngDemo.Day2@43dac38f]" name="DemoABC" class="TestngDemo.Day2"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2020-03-26T07:54:12Z" name="Test" finished-at="2020-03-26T07:54:12Z" duration-ms="128">
+      <class name="TestngDemo.Day4">
+        <test-method signature="A(java.lang.String, java.lang.String)[pri:0, instance:TestngDemo.Day4@342c38f8]" started-at="2020-03-26T13:24:12Z" name="A" data-provider="getData" finished-at="2020-03-26T13:24:12Z" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Firstsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method signature="A(java.lang.String, java.lang.String)[pri:0, instance:TestngDemo.Day4@342c38f8]" started-at="2020-03-26T13:24:12Z" name="A" data-provider="getData" finished-at="2020-03-26T13:24:12Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Secondsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method signature="A(java.lang.String, java.lang.String)[pri:0, instance:TestngDemo.Day4@342c38f8]" started-at="2020-03-26T13:24:12Z" name="A" data-provider="getData" finished-at="2020-03-26T13:24:12Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Thirdsetusername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Password]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- A -->
+        <test-method signature="B(java.lang.String)[pri:0, instance:TestngDemo.Day4@342c38f8]" started-at="2020-03-26T13:24:12Z" name="B" finished-at="2020-03-26T13:24:12Z" duration-ms="10" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RahulQAAcademy.com]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- B -->
+        <test-method signature="C()[pri:0, instance:TestngDemo.Day4@342c38f8]" started-at="2020-03-26T13:24:12Z" name="C" finished-at="2020-03-26T13:24:12Z" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- C -->
+      </class> <!-- TestngDemo.Day4 -->
+      <class name="TestngDemo.Day1">
+        <test-method is-config="true" signature="BTest()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="BTest" finished-at="2020-03-26T13:24:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BTest -->
+        <test-method is-config="true" signature="BeforeClassDemo()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="BeforeClassDemo" finished-at="2020-03-26T13:24:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeClassDemo -->
+        <test-method is-config="true" signature="BeforeMethodDemo()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="BeforeMethodDemo" finished-at="2020-03-26T13:24:12Z" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodDemo -->
+        <test-method signature="Demo()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="Demo" finished-at="2020-03-26T13:24:12Z" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method is-config="true" signature="AfterMethodDemo()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="AfterMethodDemo" finished-at="2020-03-26T13:24:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodDemo -->
+        <test-method is-config="true" signature="BeforeMethodDemo()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="BeforeMethodDemo" finished-at="2020-03-26T13:24:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethodDemo -->
+        <test-method signature="print()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="print" finished-at="2020-03-26T13:24:12Z" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method is-config="true" signature="AfterMethodDemo()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="AfterMethodDemo" finished-at="2020-03-26T13:24:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMethodDemo -->
+        <test-method is-config="true" signature="AfterClassDemo()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="AfterClassDemo" finished-at="2020-03-26T13:24:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterClassDemo -->
+      </class> <!-- TestngDemo.Day1 -->
+      <class name="TestngDemo.Day2">
+        <test-method signature="DemoABC()[pri:0, instance:TestngDemo.Day2@43dac38f]" started-at="2020-03-26T13:24:12Z" name="DemoABC" finished-at="2020-03-26T13:24:12Z" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DemoABC -->
+        <test-method is-config="true" signature="ATest()[pri:0, instance:TestngDemo.Day2@43dac38f]" started-at="2020-03-26T13:24:12Z" name="ATest" finished-at="2020-03-26T13:24:12Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ATest -->
+      </class> <!-- TestngDemo.Day2 -->
+    </test> <!-- Test -->
+    <test started-at="2020-03-26T07:54:12Z" name="Test2" finished-at="2020-03-26T07:54:12Z" duration-ms="118">
+      <class name="TestngDemo.Day1">
+        <test-method is-config="true" signature="BeforeSuitDemo()[pri:0, instance:TestngDemo.Day1@d5b810e]" started-at="2020-03-26T13:24:12Z" name="BeforeSuitDemo" finished-at="2020-03-26T13:24:12Z" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeSuitDemo -->
+      </class> <!-- TestngDemo.Day1 -->
+      <class name="TestngDemo.Day3">
+        <test-method signature="Mobilelogin()[pri:0, instance:TestngDemo.Day3@27462a88]" started-at="2020-03-26T13:24:12Z" name="Mobilelogin" finished-at="2020-03-26T13:24:12Z" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Mobilelogin -->
+        <test-method signature="Weblogin()[pri:0, instance:TestngDemo.Day3@27462a88]" started-at="2020-03-26T13:24:12Z" name="Weblogin" finished-at="2020-03-26T13:24:12Z" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Weblogin -->
+        <test-method signature="hello(java.lang.String, java.lang.String)[pri:0, instance:TestngDemo.Day3@27462a88]" started-at="2020-03-26T13:24:12Z" name="hello" finished-at="2020-03-26T13:24:12Z" duration-ms="12" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[RahulQAAcademy.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hello -->
+        <test-method signature="APIlogin()[pri:0, instance:TestngDemo.Day3@27462a88]" started-at="2020-03-26T13:24:12Z" name="APIlogin" finished-at="2020-03-26T13:24:12Z" depends-on-methods="TestngDemo.Day3.Mobilelogin, TestngDemo.Day3.Weblogin" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- APIlogin -->
+      </class> <!-- TestngDemo.Day3 -->
+      <class name="TestngDemo.Day2">
+        <test-method is-config="true" signature="AfterSuitDemo()[pri:0, instance:TestngDemo.Day2@43dac38f]" started-at="2020-03-26T13:24:13Z" name="AfterSuitDemo" finished-at="2020-03-26T13:24:13Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterSuitDemo -->
+      </class> <!-- TestngDemo.Day2 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
